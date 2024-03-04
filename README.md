@@ -19,15 +19,15 @@ pip install -r requirements.txt
 
 En esta carpeta están recogidos los datos vitales de diferentes tipos los cuales vamos a analizar:
 
-- EMG (Electromiografía): La señal EMG registra la actividad eléctrica producida por los músculos. Dependiendo de la aplicación específica, podrías usar SARIMA o ARIMA para modelar y predecir la actividad muscular a lo largo del tiempo.
+- EMG (Electromiografía): La señal EMG registra la actividad eléctrica producida por los músculos.
+  
+- ACC (Acelerometría): Los datos de acelerometría registran la aceleración en una o más direcciones. 
 
-- ACC (Acelerometría): Los datos de acelerometría registran la aceleración en una o más direcciones. Podrías aplicar técnicas de series temporales para modelar patrones de movimiento o vibraciones a lo largo del tiempo.
+- LUX (Luminosidad): Los datos de luminosidad representan la intensidad de la luz.
 
-- LUX (Luminosidad): Los datos de luminosidad representan la intensidad de la luz. Para este tipo de datos, puede que no tenga sentido aplicar SARIMA o ARIMA, ya que la luminosidad puede estar influenciada por factores externos como la hora del día o el clima, que no son necesariamente modelados bien por estos modelos.
+- ECG (Electrocardiografía): Los datos de ECG registran la actividad eléctrica del corazón. 
 
-- ECG (Electrocardiografía): Los datos de ECG registran la actividad eléctrica del corazón. SARIMA o ARIMA podrían usarse para modelar y predecir patrones de ritmo cardíaco a lo largo del tiempo.
-
-- EEG (Electroencefalografía): Los datos de EEG registran la actividad eléctrica del cerebro. Al igual que con ECG, SARIMA o ARIMA podrían usarse para modelar y predecir patrones de actividad cerebral.
+- EEG (Electroencefalografía): Los datos de EEG registran la actividad eléctrica del cerebro. 
 
 - EDA (Actividad Electrodermal): Los datos registran los cambios de estado en la piel. No recogimos datos de esta sección ya que en el estado en el que estaba la persona no había ningún cambio.
 
