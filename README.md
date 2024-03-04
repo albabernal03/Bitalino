@@ -8,7 +8,10 @@ En esta práctica, hemos aplicado técnicas de Inteligencia Artificial y Anális
 La gestión ética de datos biomédicos, dada su naturaleza sensible, requiere medidas rigurosas para proteger la privacidad y asegurar el consentimiento informado. Por ello, elaboramos un documento de autorización, reflejando nuestro compromiso con la ética y la transparencia. Este documento garantiza que los participantes estén bien informados sobre la investigación, sus riesgos y beneficios, y cómo se protegerán sus datos. Además, subraya la importancia de su consentimiento voluntario y la protección de sus derechos, alineándose con las normativas éticas y legales. En esencia, este documento es esencial para asegurar un manejo responsable de los datos biomédicos y fortalecer la confianza entre investigadores y participantes.
 
 ## requirements.txt
-Para descargar las dependencias usadas en este proyecto ``` pip install -r requirements.txt ```
+Para descargar las dependencias usadas en este proyecto ejecutar el terminal el siguiente comando:
+```
+pip install -r requirements.txt
+```
 
 ## OpenSignals
 En esta carpeta están recogidos los datos vitales de diferentes tipos los cuales vamos a analizar:
