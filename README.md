@@ -3,7 +3,7 @@ El link a nuestro repositorio es: [GitHub](https://github.com/albabernal03/Bital
 
 En esta práctica, hemos aplicado técnicas de Inteligencia Artificial y Análisis de Datos para explorar, procesar, y analizar datos fisiológicos recopilados a través del dispositivo Bitalino. El objetivo es identificar patrones, realizar predicciones, y extraer conclusiones significativas de los datos de electrocardiograma (ECG), electromiograma (EMG), y actividad electrodermal (EDA) bajo diferentes condiciones experimentales. En este primer tramo nuestro objetivo ha sido aprender a recoger datos y visualizarlos para en un futuro aplicarlo a gran escala.
 
-## Documento de autorizción BITalino
+## Documento de autorización BITalino
 
 La gestión ética de datos biomédicos, dada su naturaleza sensible, requiere medidas rigurosas para proteger la privacidad y asegurar el consentimiento informado. Por ello, elaboramos un documento de autorización, reflejando nuestro compromiso con la ética y la transparencia. Este documento garantiza que los participantes estén bien informados sobre la investigación, sus riesgos y beneficios, y cómo se protegerán sus datos. Además, subraya la importancia de su consentimiento voluntario y la protección de sus derechos, alineándose con las normativas éticas y legales. En esencia, este documento es esencial para asegurar un manejo responsable de los datos biomédicos y fortalecer la confianza entre investigadores y participantes.
 
