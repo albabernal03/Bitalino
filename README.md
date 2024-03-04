@@ -16,7 +16,7 @@ En esta carpeta están recogidos los datos vitales de diferentes tipos los cuale
 
 - EEG (Electroencefalografía): Los datos de EEG registran la actividad eléctrica del cerebro. Al igual que con ECG, SARIMA o ARIMA podrían usarse para modelar y predecir patrones de actividad cerebral.
 
-- EDA: Los datos registran los cambios de estado en la piel.
+- EDA: Los datos registran los cambios de estado en la piel. No recogimos datos de esta sección ya que en el estado en el que estaba la persona no había ningún cambio.
 
 ## img
 En esta carpeta hemos guardado las gráficas de las constantes vitales analizadas.
