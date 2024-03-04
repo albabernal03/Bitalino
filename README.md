@@ -1,4 +1,5 @@
 # Bitalino
+
 El link a nuestro repositorio es: [GitHub](https://github.com/albabernal03/Bitalino)
 
 En esta práctica, hemos aplicado técnicas de Inteligencia Artificial y Análisis de Datos para explorar, procesar, y analizar datos fisiológicos recopilados a través del dispositivo Bitalino. El objetivo es identificar patrones, realizar predicciones, y extraer conclusiones significativas de los datos de electrocardiograma (ECG), electromiograma (EMG), y actividad electrodermal (EDA) bajo diferentes condiciones experimentales. En este primer tramo nuestro objetivo ha sido aprender a recoger datos y visualizarlos para en un futuro aplicarlo a gran escala.
@@ -8,12 +9,14 @@ En esta práctica, hemos aplicado técnicas de Inteligencia Artificial y Anális
 La gestión ética de datos biomédicos, dada su naturaleza sensible, requiere medidas rigurosas para proteger la privacidad y asegurar el consentimiento informado. Por ello, elaboramos un documento de autorización, reflejando nuestro compromiso con la ética y la transparencia. Este documento garantiza que los participantes estén bien informados sobre la investigación, sus riesgos y beneficios, y cómo se protegerán sus datos. Además, subraya la importancia de su consentimiento voluntario y la protección de sus derechos, alineándose con las normativas éticas y legales. En esencia, este documento es esencial para asegurar un manejo responsable de los datos biomédicos y fortalecer la confianza entre investigadores y participantes.
 
 ## requirements.txt
+
 Para descargar las dependencias usadas en este proyecto, ejecutar en la terminal el siguiente comando:
 ```
 pip install -r requirements.txt
 ```
 
 ## OpenSignals
+
 En esta carpeta están recogidos los datos vitales de diferentes tipos los cuales vamos a analizar:
 
 - EMG (Electromiografía): La señal EMG registra la actividad eléctrica producida por los músculos. Dependiendo de la aplicación específica, podrías usar SARIMA o ARIMA para modelar y predecir la actividad muscular a lo largo del tiempo.
@@ -26,9 +29,10 @@ En esta carpeta están recogidos los datos vitales de diferentes tipos los cuale
 
 - EEG (Electroencefalografía): Los datos de EEG registran la actividad eléctrica del cerebro. Al igual que con ECG, SARIMA o ARIMA podrían usarse para modelar y predecir patrones de actividad cerebral.
 
-- EDA: Los datos registran los cambios de estado en la piel. No recogimos datos de esta sección ya que en el estado en el que estaba la persona no había ningún cambio.
+- EDA (Actividad Electrodermal): Los datos registran los cambios de estado en la piel. No recogimos datos de esta sección ya que en el estado en el que estaba la persona no había ningún cambio.
 
 ## img
+
 En esta carpeta hemos guardado las gráficas de las constantes vitales analizadas.
 - acc.png
 - ecg.png
@@ -37,7 +41,11 @@ En esta carpeta hemos guardado las gráficas de las constantes vitales analizada
 - lux.png
 
 ## grafica.py
-Con este codigo dibujamos las gráficas que representan los datos y exploramos la estructura del archivo .h5.
+
+Los archivos `.h5` son capaces de almacenar datos de forma estructurada y compleja, lo que incluye múltiples grupos y subgrupos. Esta organización detallada permite una gestión precisa de los datos, pero también requiere comprender la estructura del archivo para acceder a los datos de manera correcta. Antes de realizar análisis o visualizaciones, es fundamental explorar la estructura de los archivos de datos para comprender cómo están organizados. Esto facilita la selección adecuada de los conjuntos de datos a analizar y garantiza una interpretación precisa de los resultados. La visualización de datos es una herramienta poderosa para el análisis preliminar, ya que permite identificar patrones, tendencias, anomalías y comportamientos específicos de las señales capturadas.
+
+Con el siguiente código dibujamos las gráficas que representan los datos y exploramos la estructura del archivo `.h5`.
+
 ```
 import h5py
 import matplotlib.pyplot as plt
@@ -67,9 +75,10 @@ def trazar_datos_especificos_h5(ruta_archivo, ruta_datos):
         plt.xlabel('Muestra')
         plt.ylabel('Valor')
         plt.savefig(f"img/{ruta_archivo.split('/')[-1].split('.')[0]}.png")
-  ```
+```
 
 ## main.py
+
 ```
 from grafica import explorar_estructura_h5, trazar_datos_especificos_h5
 
@@ -92,12 +101,12 @@ def main():
         # Graficar un conjunto de datos específico
         trazar_datos_especificos_h5(ruta_archivo, ruta_datos)
 ```
+
 ## run.py
+
 ```
 from main import main
 
 if __name__ == "__main__":
     main()
 ```
-
-
