@@ -1,5 +1,6 @@
 # Bitalino
 El link a nuestro repositorio es: [GitHub](https://github.com/albabernal03/Bitalino)
+
 En esta práctica, hemos aplicado técnicas de Inteligencia Artificial y Análisis de Datos para explorar, procesar, y analizar datos fisiológicos recopilados a través del dispositivo Bitalino. El objetivo es identificar patrones, realizar predicciones, y extraer conclusiones significativas de los datos de electrocardiograma (ECG), electromiograma (EMG), y actividad electrodermal (EDA) bajo diferentes condiciones experimentales. En este primer tramo nuestro objetivo ha sido aprender a recoger datos y visualizarlos para en un futuro aplicarlo a gran escala.
 
 ## OpenSignals
