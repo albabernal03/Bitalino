@@ -35,10 +35,20 @@ En esta carpeta están recogidos los datos vitales de diferentes tipos los cuale
 
 En esta carpeta hemos guardado las gráficas de las constantes vitales analizadas.
 - acc.png
+  ![image](https://github.com/albabernal03/Bitalino/assets/91721875/035e344d-e8f5-43a4-8e30-205deb509e5e)
+
 - ecg.png
+  ![image](https://github.com/albabernal03/Bitalino/assets/91721875/bbafeb35-5f39-462f-bcc7-e8778eae6e4f)
+
 - eeg.png
+  ![image](https://github.com/albabernal03/Bitalino/assets/91721875/743200dd-7ed2-4b8d-bcde-f09524c6adfb)
+
 - emg.png
+  ![image](https://github.com/albabernal03/Bitalino/assets/91721875/c3a3d247-5b81-4d6e-b767-d6d97eb7c17c)
+
 - lux.png
+  ![image](https://github.com/albabernal03/Bitalino/assets/91721875/107068dd-6923-481c-a5b5-5057c37474f3)
+
 
 ## grafica.py
 
