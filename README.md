@@ -1,4 +1,5 @@
 # Bitalino
+El link a nuestro repositorio es: [GitHub](https://github.com/albabernal03/Bitalino)
 
 - EMG (Electromiografía): La señal EMG registra la actividad eléctrica producida por los músculos. Dependiendo de la aplicación específica, podrías usar SARIMA o ARIMA para modelar y predecir la actividad muscular a lo largo del tiempo.
 
