@@ -15,6 +15,9 @@ with h5py.File(file_path, 'r') as file:
     plt.ylabel('Amplitud')
     plt.show()
 
+#guardamos grafica
+plt.savefig('EEG.png')
+
 metadata = {
     "device": "bitalino_rev",
     "device name": "84:BA:20:5E:FF:58",

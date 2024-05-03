@@ -1,0 +1,20 @@
+# device: bitalino_rev
+# device name: 84:BA:20:5E:FF:58
+# position: 0
+# device connection: BTH84:BA:20:5E:FF:58
+# sampling rate: 100
+# resolution: [4, 1, 1, 1, 1, 10]
+# firmware version: 1282
+# comments: 
+# keywords: 
+# mode: 0
+# sync interval: 2
+# date: 2024-3-1
+# time: 18:30:27.147
+# channels: [1]
+# sensor: ['EMGBITREV']
+# label: ['A1']
+# column: ['nSeq', 'I1', 'I2', 'O1', 'O2', 'A1']
+# special: [{}]
+# digital IO: [0, 0, 1, 1]
+# convertedValues: 0
