@@ -6,17 +6,18 @@ file_path = 'Opensignals2/bitalino_Sound_video_without_light.h5'
 with h5py.File(file_path, 'r') as file:
     # Leer datos, por ejemplo, EEG
     eeg_data = file['EEG'][:]
+    ecg_data = file['ECG'][:]
+    lux_data = file['LUX'][:]
     
-    # Graficar los datos de EEG
-    plt.figure(figsize=(10, 4))
-    plt.plot(eeg_data)
-    plt.title('Datos de EEG')
-    plt.xlabel('Muestra')
-    plt.ylabel('Amplitud')
+    #Graficamos lux
+    plt.plot(lux_data)
+    plt.title('Lux')
+    plt.xlabel('Tiempo')
+    plt.ylabel('Lux')
     plt.show()
 
-#guardamos grafica
-plt.savefig('EEG.png')
+    
+
 
 metadata = {
     "device": "bitalino_rev",
